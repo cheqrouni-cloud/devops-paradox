@@ -16,6 +16,6 @@ spec:
       - backend:
           service: 
             name: {{ .Values.service.name }}
-          port:
-            number: 80
+            port:
+              number: 80
     host: {{ .Values.ingress.host }}    
